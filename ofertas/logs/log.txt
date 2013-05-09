@@ -1,0 +1,18 @@
+2012-07-17 | Borrado | El usuario: adminofertas borro el archivo log.
+2012-07-19 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-23 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-24 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-24 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-24 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-24 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-25 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-26 | Logueado | El usuario adminofertas se ha logueado.
+2012-07-26 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-06 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-08 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-09 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-09 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-09 | Logueado | El usuario adminofertas se ha logueado.
+2012-08-27 | Logueado | El usuario adminofertas se ha logueado.
+2012-10-17 | Logueado | El usuario adminofertas se ha logueado.
+2013-01-21 | Logueado | El usuario adminofertas se ha logueado.

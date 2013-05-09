@@ -1,0 +1,46 @@
+﻿
+			<?php if(count($agriculturas) != 0){ ?>
+			<div id="productos-recientes" class="clearfix">
+				<hgroup>
+					<h3>Agricultura</h3>
+				</hgroup>
+			<?php foreach($agriculturas as $agricultura){ ?>
+				<a href="product-description.php?product=<?php echo urlencode($agricultura->id); ?>&iteam=<?php echo urlencode($agricultura->menu_id); ?>&title=<?php echo urlencode($agricultura->nombre) ?>"><img width="200" height="200" src="<?php echo $agricultura->ruta_archivo(); ?>" alt="<?php echo $agricultura->nombre; ?>" title="<?php echo $agricultura->nombre; ?>" /></a>
+			<?php } ?>
+			</div>
+			<?php } ?>
+			
+			<?php if(count($tecnologias) != 0){ ?>
+			<div id="productos-recientes" class="clearfix">
+				<hgroup>
+					<h3>Tecnología</h3>
+				</hgroup>
+			<?php foreach($tecnologias as $tecnologia){ ?>
+				<a href="product-description.php?product=<?php echo urlencode($tecnologia->id); ?>&iteam=<?php echo urlencode($tecnologia->menu_id); ?>&title=<?php echo urlencode($tecnologia->nombre) ?>"><img width="200" height="200" src="<?php echo $tecnologia->ruta_archivo(); ?>" alt="<?php echo $tecnologia->nombre; ?>" title="<?php echo $tecnologia->nombre; ?>" /></a>
+			<?php } ?>
+			</div>
+			<?php } ?>
+			
+			<?php if(count($lineas) != 0){ ?>
+			<div id="productos-recientes" class="clearfix">
+				<hgroup>
+					<h3>Línea Blanca</h3>
+				</hgroup>
+			<?php foreach($lineas as $linea){ ?>
+				<a href="product-description.php?product=<?php echo urlencode($linea->id); ?>&iteam=<?php echo urlencode($linea->menu_id); ?>&title=<?php echo urlencode($linea->nombre) ?>"><img width="200" height="200" src="<?php echo $linea->ruta_archivo(); ?>" alt="<?php echo $linea->nombre; ?>" title="<?php echo $linea->nombre; ?>" /></a>
+			<?php } ?>
+			</div>
+			<?php } ?>
+			
+			<?php if(count($repuestos) != 0){ ?>
+			<div id="productos-recientes" class="clearfix">
+				<hgroup>
+					<h3>Repuestos y Accesorios</h3>
+				</hgroup>
+			<?php foreach($repuestos as $repuesto){ ?>
+				<a href="product-description.php?product=<?php echo urlencode($repuesto->id); ?>&iteam=<?php echo urlencode($repuesto->menu_id); ?>&title=<?php echo urlencode($repuesto->nombre) ?>"><img width="200" height="200" src="<?php echo $repuesto->ruta_archivo(); ?>" alt="<?php echo $repuesto->nombre; ?>" title="<?php echo $repuesto->nombre; ?>" /></a>
+			<?php } ?>
+			</div>
+			<?php } ?>
+			
+			<a href="product-description.php?product=<?php echo urlencode($animal->id); ?>&iteam=<?php echo urlencode($animal->menu_id); ?>&title=<?php echo urlencode($animal->nombre); ?>"><img width="200" height="200" src="<?php echo $animal->ruta_archivo(); ?>" alt="<?php echo $animal->nombre; ?>" title="<?php echo $animal->nombre; ?>" /></a>

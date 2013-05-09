@@ -1,0 +1,2 @@
+php_value sendmail_from webmaster@imedics.ws
+php_flag display_errors on

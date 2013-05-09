@@ -1,0 +1,30 @@
+2013-01-09 | Borrado | El usuario: Luis Barrera borro el archivo log.
+2013-01-09 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-09 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-09 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-10 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-10 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-14 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-14 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-14 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-15 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-16 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-18 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-21 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-21 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-21 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-21 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-22 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-25 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-29 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-29 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-01-30 | Logueado | El usuario Luis Barrera se ha logueado.
+2013-01-30 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.
+2013-02-27 | Logueado | El Dr(a). Jorge Aguilar Rosales Morales se ha logueado.

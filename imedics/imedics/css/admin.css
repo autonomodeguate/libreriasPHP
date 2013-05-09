@@ -1,0 +1,408 @@
+﻿/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+table{
+	border-collapse:collapse;
+	border:1px solid #EEE;
+}
+
+table tr td{
+	padding:3px;
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	background: #FFF;
+	font: .81em/150% Arial, Helvetica, sans-serif;
+	color: #666;
+}
+a {
+	color: #09c;
+	text-decoration: none;
+	outline: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+p {
+	margin: 0 0 1.2em;
+	padding: 0;
+}
+
+/* list */
+ul, ol {
+	margin: 0.5em 0 0.5em 10px;
+	padding: 0;
+	line-height: 140%;
+}
+li {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	margin-bottom:10px;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+h6 {
+	font-size: 1em;
+}
+
+ul.list{
+	margin-left:2em;
+}
+
+/************************************************************************************
+WRAPPER
+*************************************************************************************/
+#wrapper{
+	margin:0 auto;
+	width:980px;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header{
+	width:100%;
+}
+
+#header .logo{
+	margin-top:1em;
+	text-align:center;
+	width:100%;
+}
+
+/************************************************************************************
+ACCESS
+*************************************************************************************/
+#access {
+	background: #245ec1 url(../images/back-menu.jpg) repeat-x;/* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#245ec1, #133c81);
+	background: -o-linear-gradient(#245ec1, #133c81);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#245ec1), to(#133c81)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#245ec1, #133c81);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	border-radius:0.5em;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 1em auto 0 auto;
+	width: 100%;
+}
+#access ul {
+	font-size: 15px;
+	list-style: none;
+}
+#access li {
+	float: left;
+	position: relative;
+	border-left:1px solid #2252a2;
+	border-right:1px solid #1148a3;
+}
+#access a {
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	border-radius:0.5em;
+	color: #fff;
+	display: block;
+	line-height: 1em;
+	padding:0.5em;
+	text-decoration: none;
+}
+#access li:hover > a,
+#access a:focus {
+	color: #80daff;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+#access ul li a.selected{
+	color: #80daff;
+}
+
+#access ul li:first-child{
+	border-left:none;
+}
+
+#access ul li:last-child{
+	border-right:none;
+}
+
+/************************************************************************************
+INFO
+*************************************************************************************/
+#info{
+	margin:1em auto;
+	text-align:right;
+	width:100%;
+}
+
+/************************************************************************************
+BANNER
+*************************************************************************************/
+#banner{
+	text-align:center;
+	margin:auto;
+	width:100%;
+}
+
+#banner img{
+	border:5px solid #133c81;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+#content{
+	border-top:1px solid #EEE;
+	padding-top:15px;
+	width:100%;
+}
+
+/************************************************************************************
+TEXTS
+*************************************************************************************/
+#texts{
+	float:left;
+	width:615px;
+}
+
+/************************************************************************************
+iTEAMS MENU
+*************************************************************************************/
+#menu_activos{
+	border:1px solid green;
+	margin-bottom:1em;
+	padding:10px;
+	width:100%;
+}
+
+#menu_activos span{
+	color:#09c;
+}
+
+#menu_inactivos{
+	border:1px solid red;
+	padding:10px;
+	width:100%;
+}
+
+#menu_inactivos span{
+	color:#09c;
+}
+
+
+/************************************************************************************
+ASIDE
+*************************************************************************************/
+#aside{
+	float:right;
+}
+
+#aside img{
+	border:5px solid #133c81;
+}
+
+/************************************************************************************
+PRESCRIPTON
+*************************************************************************************/
+#prescriptions{
+	margin-top:10px;
+	padding:5px;
+}
+
+#prescription table#pres tr td{
+	border:1px solid #000;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer{
+	border-top:1px solid #EEE;
+	margin-top:1em;
+	padding:10px;
+	text-align:center;
+}
+
+
+/************************************************************************************
+FOORM LOGIN
+*************************************************************************************/
+#form{
+	margin:25px auto;
+	width:400px;
+}
+
+
+form#login label{
+	float:left;
+	padding:5px 5px 0 0;
+	text-align:right;
+	width:50px;
+}
+
+form#login input{
+	border-radius:0.5em;
+	padding:5px;
+	width:300px;
+}
+
+form#login input, textarea{
+	border:1px solid #07706c;
+}
+
+form#login input#submit{
+	background: #87e0fd; /* Old browsers */
+	background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+	border:1px solid #09c;
+	color:#006699;
+	float:right;
+	width:100px;
+}
+
+form#login input#submit:hover{
+	background: #67d9fc; /* Old browsers */
+	background: -moz-linear-gradient(top, #67d9fc 0%, #2fc2ef 40%, #0095db 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#67d9fc), color-stop(40%,#2fc2ef), color-stop(100%,#0095db)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67d9fc', endColorstr='#0095db',GradientType=0 ); /* IE6-9 */
+}
+
+/************************************************************************************
+FOORM GENERAL
+*************************************************************************************/
+#add-menu{
+	margin:20px 0;
+	width:400px;
+}
+
+#edit-menu{
+	margin:20px 0;
+	width:400px;
+}
+
+form div{
+	padding:5px 0;
+}
+
+label{
+	display:block;
+	line-height:20px;
+	text-align:left;
+	width:150px;
+}
+
+input{
+	border:1px solid #53cbf1;
+	padding:5px;
+	width:300px;
+}
+
+input#sub{
+	background: #87e0fd; /* Old browsers */
+	background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+	border:1px solid #09c;
+	border-radius:0.5em;
+	color:#006699;
+	float:right;
+	width:100px;
+}
+
+input#sub:hover{
+	background: #67d9fc; /* Old browsers */
+	background: -moz-linear-gradient(top, #67d9fc 0%, #2fc2ef 40%, #0095db 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#67d9fc), color-stop(40%,#2fc2ef), color-stop(100%,#0095db)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #67d9fc 0%,#2fc2ef 40%,#0095db 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67d9fc', endColorstr='#0095db',GradientType=0 ); /* IE6-9 */
+}
+
+input#file{
+	border:none;
+}
+
+/************************************************************************************
+ERROR
+*************************************************************************************/
+#error{
+	border:1px solid orange;
+	margin:1em auto;
+	padding:10px;
+	width:100%;
+}
+
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
